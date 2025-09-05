@@ -9,11 +9,11 @@ import psycopg2
 def connect_db():
     try:
         conn = psycopg2.connect(
-            dbname="library_db",
-            user="postgres",
-            password="1384m1384_Ms",
-            host="localhost",
-            port="5432"
+            dbname="DB NAME",
+            user="USERNAME",
+            password="PASSWORD",
+            host="HOST",
+            port="PORT"
         )
         return conn
     except Exception as e:
