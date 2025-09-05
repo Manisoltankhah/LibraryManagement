@@ -3,11 +3,11 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 import getpass
 
 # تنظیمات دیتابیس
-DB_NAME = "library_db2"
-USER = "postgres"
-PASSWORD = "1384m1384_Ms"
-HOST = "localhost"
-PORT = "5432"
+DB_NAME = "DB NAME"
+USER = "USERNAME"
+PASSWORD = "PASSWORD"
+HOST = "HOST"
+PORT = "PORT"
 
 def connect_to_database(db_name):
     """اتصال به یک دیتابیس مشخص"""
