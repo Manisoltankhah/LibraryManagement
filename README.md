@@ -79,11 +79,11 @@ Update the database connection settings in `Main_application.py` if needed:
 
 ```python
 conn = psycopg2.connect(
-    dbname="library_db",
-    user="postgres",        # Change if different
-    password="1384m1384_Ms", # Change to your PostgreSQL password
-    host="localhost",       # Change if different
-    port="5432"            # Change if different
+    dbname="DB NAME",
+    user="USERNAME",        # Change if different
+    password="PASSWORD", # Change to your PostgreSQL password
+    host="HOST",       # Change if different
+    port="PORT"            # Change if different
 )
 ```
 
@@ -196,11 +196,11 @@ python setup_db.py
 
 ```python
 conn = psycopg2.connect(
-    dbname="library_db",
-    user="postgres",        # در صورت متفاوت بودن تغییر دهید
-    password="1384m1384_Ms", # پسورد PostgreSQL خود را وارد کنید
-    host="localhost",       # در صورت متفاوت بودن تغییر دهید
-    port="5432"            # در صورت متفاوت بودن تغییر دهید
+    dbname="DB NAME",
+    user="USERNAME",        # در صورت متفاوت بودن تغییر دهید
+    password="PASSWORD", # پسورد PostgreSQL خود را وارد کنید
+    host="HOST",       # در صورت متفاوت بودن تغییر دهید
+    port="PORT"            # در صورت متفاوت بودن تغییر دهید
 )
 ```
 
