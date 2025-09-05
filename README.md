@@ -1,7 +1,7 @@
 # Library Management System / سیستم مدیریت کتابخانه
 
-![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue)
 
 ## English Version
 
